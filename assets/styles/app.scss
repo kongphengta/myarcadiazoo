@@ -1,0 +1,16 @@
+/* assets/styles/app.scss */
+$white: #FFF;
+$red: #fc030b;
+$primary: #088A29;
+$secondary: #0B6121;
+$dark: #0B3B17;
+$blue: #08088A;
+
+body {
+    background: $white;
+}
+
+.btn {
+    background-color: $dark;
+    color: $white;
+}
