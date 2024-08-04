@@ -131,6 +131,36 @@ J'actualise la page pour tester, tout fonctionne comme je voulais.
 
 ![](public/images/testSass_2.JPG)  
 
+Les couleurs fonctionnent bien je vais cette fois-ci ajouter la police que j'ai défini sur "Figma".  
+[Lien Figma](https://www.figma.com/design/u9WRTomub3dcGjSojmiRNO/Arcadia-Zoo?node-id=18-4&t=mMqvuuJ8xityVZ6x-0)  
+
+Pour ce faire, je vais sur "Google fonts"   
+[Lien Google Fonts](https://fonts.google.com/specimen/Radio+Canada+Big?query=Radio+Canada+Big)  
+
+Partie html j'ai copié les liens de police que j'ai défini dans "Charte Graphique" sur "Figma" et coller dans le block "stysheet" de "base.html.twig" et partie css dans app.scss.
+
+Partie html :  
+
+![](public/images/policeHtml.JPG)  
+
+Partie css :  
+
+![](public/images/policeCss.JPG)  
+
+![](public/images/testCouleur&Police.JPG)
+
+J'actualise la page pour afficher la nouvelle police et nouvelle couleur.  
+![](public/images/testCouleur&Police_1.JPG)
+
+Tout est OK, je peux maintenant coder mon application à commencer par la navbar de Boostrap comme modèle.  
+
+
+
+
+
+
+
+
 
 
 

@@ -6,6 +6,18 @@ $secondary: #0B6121;
 $dark: #0B3B17;
 $blue: #08088A;
 
+$font-family: "Radio Canada Big", sans-serif !default;
+$font-optical-sizing: auto;
+$font-weight: weight;
+$font-style: normal;
+
+$font-family: "Roboto", sans-serif !default;
+$font-weight: 400;
+$font-style: normal;
+
+
+
+
 body {
     background: $white;
 }
@@ -13,4 +25,10 @@ body {
 .btn {
     background-color: $dark;
     color: $white;
+}
+
+h1 {
+    font-family: "Radio Canada Big", sans-serif;
+    color: $blue;
+
 }

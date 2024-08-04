@@ -6,4 +6,9 @@ body {
 .btn {
   background-color: #0B3B17;
   color: #FFF;
+}
+
+h1 {
+  font-family: "Radio Canada Big", sans-serif;
+  color: #08088A;
 }/*# sourceMappingURL=app.css.map */
