@@ -152,7 +152,34 @@ Partie css :
 J'actualise la page pour afficher la nouvelle police et nouvelle couleur.  
 ![](public/images/testCouleur&Police_1.JPG)
 
-Tout est OK, je peux maintenant coder mon application à commencer par la navbar de Boostrap comme modèle.  
+Jusqu'ici c'est ok, avant d'aller plus loin je vais m'assurer que mon application fonctionne aussi la partie back je vais créer la base de données en utilisant le maker-bundle, pour pouvoir l'utiliser il faut assurer qu'il est installé je peux vérirfier sur "composer.json".  
+
+![](public/images/maker-bundle.JPG)  
+
+Avant de lancer la commande pour créer cette base de données je vais copier le fichier .env en renommant .env.local et paramétrer pour créer la base de données.  
+Je lance la commande pour copier le fichier .env  
+```php
+cp .env .env.local
+```  
+Fichier .env.local  
+
+![](public/images/.env.local.JPG)  
+
+je vais lancer la commande pour créer ma base de données.
+
+```php
+php bin/console doctrine:database:create
+```  
+Ma base de données est créée je peux aller voir sur "localhost/phpmyadmin".
+
+![](public/images/baseDeDonnées.JPG)  
+
+Je vais créer ensuite la navbar en utilisant navbar de Bootstrap comme modèle.  
+
+
+
+
+
 
 
 
