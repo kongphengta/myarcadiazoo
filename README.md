@@ -174,9 +174,25 @@ Ma base de données est créée je peux aller voir sur "localhost/phpmyadmin".
 
 ![](public/images/baseDeDonnées.JPG)  
 
-Je vais créer ensuite la navbar en utilisant navbar de Bootstrap comme modèle.  
+Je vais ajouter ensuite la navbar en utilisant navbar de Bootstrap comme modèle. Avant d'ajouter cette dernière je vais créer un sous répertoire "_partials" dans le répertoire "templates" dans ce sous répertoire je vais créer un fichier "_navbar.html.twig" et coller la navbar de Bootstrap dans ce dernier, puis l'inclure dans "base.html.twig".
 
+Fichier "_partials/_navbar.html.twig".
 
+![](public/images/_navbar.html.twig.JPG)  
+
+Inclure dans "base.html.twig"  
+
+![](public/images/inclureNavbarBasehtmltwig.JPG)  
+
+je vais ensuite modifier le code et utiliser la couleur que j'ai défini dans Charte Graphique sur "Figma".
+
+[Lien Figma](https://www.figma.com/design/u9WRTomub3dcGjSojmiRNO/Arcadia-Zoo?node-id=18-4&t=56LBv21DwHHclfTl-0)  
+
+J'actualise la page pour tester la modification de ma navbar.
+
+![](public/images/navbarVisuel.JPG)  
+
+Vue que j'ai bien avancé sur cette dernière, je vais ensuite ajouter cette fois-ci la "Footer".
 
 
 

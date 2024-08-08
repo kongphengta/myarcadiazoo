@@ -8,7 +8,9 @@ body {
   color: #FFF;
 }
 
-h1 {
-  font-family: "Radio Canada Big", sans-serif;
-  color: #08088A;
+nav,
+.navbar-brand,
+.nav-link {
+  background-color: #088A29;
+  color: #FFF;
 }/*# sourceMappingURL=app.css.map */
