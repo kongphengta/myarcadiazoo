@@ -71,7 +71,7 @@ Et j'actualise la page pour tester.
 
 ![](public/images/testPagebienvenue.JPG)
 
-Le bundle sass pour Symfony fonctionne bien, il est temps pour moi de modifier les couleurs de Bootstrap, j'ai défini les quatre couleurs que je voulais utiliser pour mon application dans Charte Graphique sur Figma.  
+Le bundle sass pour Symfony fonctionne bien, il est temps pour moi de modifier les couleurs de Bootstrap, j'ai défini les quatre couleurs que je voulais utiliser sur mon application dans Charte Graphique sur Figma.  
 
 [Lien Figma](https://www.figma.com/design/u9WRTomub3dcGjSojmiRNO/Arcadia-Zoo?node-id=18-4&t=KbvoCMtqwAFVXDS7-0)  
 
@@ -165,7 +165,7 @@ Fichier .env.local
 
 ![](public/images/.env.local.JPG)  
 
-je vais lancer la commande pour créer ma base de données.
+je lance la commande pour créer ma base de données.
 
 ```php
 php bin/console doctrine:database:create
@@ -192,8 +192,59 @@ J'actualise la page pour tester la modification de ma navbar.
 
 ![](public/images/navbarVisuel.JPG)  
 
-Vue que j'ai bien avancé sur cette dernière, je vais ensuite ajouter cette fois-ci la "Footer".
+Vue que j'ai bien avancé sur cette dernière, je vais ensuite ajouter cette fois-ci le "Footer".
 
+De la même manière que la navbar je retourne vers la Chatre Graphique sur Figma, pour utiliser le modèle que j'ai défini.
+
+Je vais ajouter dans le sous répertoire "_partials" que j'ai créé récemment un fichier "_footer.html.twig" et ajouter le contenu de mon footer dans ce dernier.
+
+![](public/images/footer.JPG)  
+
+Le contenu de Footer.
+```twig
+<div class="container">
+	<footer class="footer mt-5">
+		<div class="row">
+			<div class="col-lg-3 text-center mb-4" style="font-size: 25px;">
+				<a class="navbar-brand" href="/">Arcadia Zoo</a>
+			</div>
+			<div class="col-lg-3 text-center" style="font-size: 25px;">Nos horaires
+				<p style="font-size: 16px;" class="text-white">Du Lundi au Vendredi
+					<br>
+					De 11h00 à 18h00</p>
+			</div>
+			<div class="col-lg-3 text-center" style="font-size: 25px;">Nos services
+				<p style="font-size: 16px;" class="text-white">Restauration
+					<br>
+					Visite les habitats avec guide gratuit<br>
+					Visite le Zoo en petit train<br></p>
+			</div>
+			<div class="col-lg-3 text-center" style="font-size: 25px;">Nous contacter
+				<p style="font-size: 16px;" class="text-white">arcadia.zoo@gmail.com<br>
+					Tel : 02 99 58 62 34</p>
+			</div>
+		</div>
+	</footer>
+</div>
+```
+
+Inclure footer dans "base.html.twig".  
+
+![](public/images/inclureFooterBase.JPG)  
+
+fichier app.scss
+```scss
+.footer {
+    background-color: $primary;
+    color: $white;
+}
+```  
+
+J'actualise la page pour tester.  
+
+![](public/images/testFooter.JPG)
+
+La navbar et le footer sont bien affichés, je peux ensuite avancer sur cette page d'accueil.
 
 
 
