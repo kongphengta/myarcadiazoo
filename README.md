@@ -244,7 +244,13 @@ J'actualise la page pour tester.
 
 ![](public/images/testFooter.JPG)
 
-La navbar et le footer sont bien affichés, je peux ensuite avancer sur cette page d'accueil.
+La navbar et le footer sont bien affichés, je peux ensuite avancer sur la présentation de cette page d'accueil en commençant par le carrousel de Bootstrap, dans le répertoire _partials je créé un fichier "carousel.html.twig"
+puis copier le modèle de carrousel de Bootstrap et coller dans ce dernier.
+
+[Lien Bootstrap](https://getbootstrap.com/docs/5.3/components/carousel/)
+
+Puis modifier le code et ajouter des images, j'ai fais un teste mon carrousel marche bien.
+
 
 
 
