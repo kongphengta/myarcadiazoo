@@ -259,6 +259,11 @@ Ensuite l'inclure dans fichier "base.html.twig"
 
 Le test est réussi. Je continue sur la présentation de la page d'accueil.
 
+Dans le répertoire "templates/home/index.html.twig" entre le block body et endblock je créé la page d'accueil, le code est très long je ne peux pas tout détaillé, le test est réussi.
+
+```twig
+{% block body %}...{% endblock %}  
+```
 
 
 
