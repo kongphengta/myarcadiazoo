@@ -249,7 +249,17 @@ puis copier le modèle de carrousel de Bootstrap et coller dans ce dernier.
 
 [Lien Bootstrap](https://getbootstrap.com/docs/5.3/components/carousel/)
 
-Puis modifier le code et ajouter des images, j'ai fais un teste mon carrousel marche bien.
+Puis modifier le code et ajouter des images.
+
+![](public/images/fichierCarrousel.JPG)
+
+Ensuite l'inclure dans fichier "base.html.twig"
+
+![](public/images/inclureFichierCarrousel.JPG)
+
+Le test est réussi. Je continue sur la présentation de la page d'accueil.
+
+
 
 
 
